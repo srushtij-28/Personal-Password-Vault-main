@@ -1,0 +1,25 @@
+1. Features:
+Create a master password.
+Add website and account credentials.
+Encrypt stored passwords.
+View saved account details after master-password verification.
+Search credentials by website.
+Update saved credentials.
+Delete credentials.
+Change the master password.
+Store encrypted data locally in JSON.
+
+2. Project structure:
+Personal_Password_Vault/
+│
+├── main.py
+├── vault_manager.py
+├── encryption.py
+├── storage.py
+├── config.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    └── vault.json
